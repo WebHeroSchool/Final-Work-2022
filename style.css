@@ -1,0 +1,60 @@
+.main__menu-loco {
+	font: 500 30px/36px 'Montserrat-Medium', sans-serif;
+}
+.main__menu-ru {
+	font: 500 20px/24px 'Montserrat-Medium', sans-serif;
+}
+.main__block-content-title {
+	font: 700 80px/82px 'Montserrat-Bold', sans-serif;
+}
+.main__block-content-text {
+	font: 400 15px/21px 'Montserrat-Regular', sans-serif;
+}
+.main__block-buttons-next {
+	font: 500 13px 'Montserrat-Medium', sans-serif;
+}
+.main__block-buttons-rest {
+	font: 500 13px 'Montserrat-Medium', sans-serif;
+}
+.main-second__block-title {
+	font: 700 40px/41px 'Montserrat-Bold', sans-serif;
+}
+.main-second__block-subtitle {
+	font: 700 16px/16px 'Montserrat-Bold', sans-serif;
+}
+.main-second__block-text {
+	font: 400 15px/21px 'Montserrat-Regular', sans-serif;
+}
+.block-circle__price {
+	font: 700 40px/56px 'Montserrat-Bold', sans-serif;
+}
+.main-second__block-buttons-counter {
+	font: 500 15px 'Montserrat-Medium', sans-serif;
+}
+.main-second__block-buttons-basket {
+	font: 500 13px 'Montserrat-Medium', sans-serif;
+}
+.main-second__block-rest {
+	font: 500 16px 'Montserrat-Medium', sans-serif;
+}
+.main-third__block-title {
+	font: 700 40px/41px 'Montserrat-Bold', sans-serif;
+}
+.main-third__block-subtitle {
+	font: 700 16px/16px 'Montserrat-Bold', sans-serif;
+}
+.main-third__block-text {
+	font: 400 15px/21px 'Montserrat-Regular', sans-serif;
+}
+.main-third__block-buttons-counter{
+	font: 500 15px 'Montserrat-Medium', sans-serif;
+}
+.main-third__block-buttons-basket {
+	font: 500 13px 'Montserrat-Medium', sans-serif;
+}
+.main-third__block-rest {
+	font: 500 13px/16px 'Montserrat-Medium', sans-serif;
+}
+.main-third__footer-text {
+	font: 700 12px/15px 'Montserrat-Bold', sans-serif;
+}
