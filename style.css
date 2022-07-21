@@ -1,44 +1,23 @@
-
-.main__menu-loco {
-	font: 500 32px/35px 'Montserrat-Medium', sans-serif;
-	color: white;
-}
-.main__menu-ru {
-	font: 500 20px/24px 'Montserrat-Medium', sans-serif;
-	color: white;
-}
-.main__block-content-title {
-	font: 700 5.55vw/5.7vw 'Montserrat-Bold', sans-serif;
-}
-.main__block-content-text {
-	font: 400 15px/21px 'Montserrat-Regular', sans-serif;
-}
-.main__block-buttons-next {
-	font: 500 0.9vw 'Montserrat-Medium', sans-serif;
-}
-.main__block-buttons-rest {
-	font: 500 0.9vw 'Montserrat-Medium', sans-serif;
-}
 .main-second__block-title {
-	font: 700 40px/41px 'Montserrat-Bold', sans-serif;
+	font: 700 2.8vw/3vw'Montserrat-Bold', sans-serif;
 }
 .main-second__block-subtitle {
-	font: 700 16px/16px 'Montserrat-Bold', sans-serif;
+	font: 700 1.2vw/1vw 'Montserrat-Bold', sans-serif;
 }
 .main-second__block-text {
-	font: 400 15px/21px 'Montserrat-Regular', sans-serif;
+    font: 400 1.05vw/1.45vw 'Montserrat-Regular', sans-serif;
 }
 .block-circle__price {
-	font: 700 40px/56px 'Montserrat-Bold', sans-serif;
+	font: 700 2.8vw/1.5vw 'Montserrat-Bold', sans-serif;
 }
 .main-second__block-buttons-counter {
-	font: 500 15px 'Montserrat-Medium', sans-serif;
+	font: 500 1vw 'Montserrat-Medium', sans-serif;
 }
 .main-second__block-buttons-basket {
 	font: 500 13px 'Montserrat-Medium', sans-serif;
 }
 .main-second__block-rest {
-	font: 500 16px 'Montserrat-Medium', sans-serif;
+	font: 500 0.9vw 'Montserrat-Medium', sans-serif;
 }
 .main-third__block-title {
 	font: 700 40px/41px 'Montserrat-Bold', sans-serif;
@@ -79,9 +58,13 @@ body {
 	width: 29%;
 }
 .main__menu-loco {
+	font: 500 32px/35px 'Montserrat-Medium', sans-serif;
+	color: white;
 	margin: 37px 0 0 12.5%;
 }
 .main__menu-ru {
+	font: 500 20px/24px 'Montserrat-Medium', sans-serif;
+	color: white;
 	position: relative;
 	padding-top: 42px;
 }
@@ -126,9 +109,11 @@ body {
 	margin-right: 13%;
 }
 .main__block-content-title {
+	font: 700 5.55vw/5.7vw 'Montserrat-Bold', sans-serif;
 	margin: 0 0 3.8% 0;
 }
 .main__block-content-text {
+	font: 400 15px/21px 'Montserrat-Regular', sans-serif;
 	margin: 0 0 10.8% 0;
 }
 .main__block-buttons {
@@ -136,12 +121,14 @@ body {
 	width: 44%;
 }
 .main__block-buttons-next {
+	font: 500 0.9vw 'Montserrat-Medium', sans-serif;
 	border: 1.5px solid black;
 	padding: 12px 6%;
 	position: relative;
 	margin-right: 8%;
 }
 .main__block-buttons-rest {
+	font: 500 0.9vw 'Montserrat-Medium', sans-serif;
 	position: relative;
 }
 .main__block-buttons-rest::before {
@@ -197,107 +184,76 @@ body {
 	height: 46px;
 	background: no-repeat 50% 50% url(img/mouse.svg),no-repeat 55% 31% url(img/mouse2.svg);
 }
-/*Начало второго раздела*/
-.main-second {
-	background-color: #FAE8E4;
-}
-.main-second__block-title {
-	margin: 0;
-}
+
+
 @media (min-width: 1441px) and (max-width: 1920px) {
 	.main__block-content-text {
 	font: 400 1vw/1.5vw 'Montserrat-Regular', sans-serif;
 }
 }
+
 @media (max-width: 1439px) {
 	.main__block-content-text {
 	font: 400 1vw/1.5vw 'Montserrat-Regular', sans-serif;
 }
 }
-@media (max-width: 767px) {
+
+@media (max-width: 768px) {
 	.main {
-    background-image: linear-gradient(to right, black 36%, white 32%);
-}
-.main__menu-loco {
-    margin: 34px 0 0 30.5%;
-}
-	.main__menu {
-		justify-content: space-between;
+		background-image: linear-gradient(to right, black 0%, white 0%);
+	}
+	.main__menu-logo {
+		align-items: center;
+	}
+	.main__menu-loco {
+		font: 500 8.5vw/10vw 'Montserrat-Medium', sans-serif;
+		color: #000;
+		margin: 0 0 0 24.5%;
 	}
 	.main__menu-ru {
 		display: none;
 	}
-
+	.main__menu-burger {
+		width: 106px;
+		height: 106px;
+	}
+	.main__menu-burger-line {
+		width: 34px;
+		height: 4px;
+		background-color: black;
+		margin-bottom: 6px;
+	}
+	.main__menu-burger-line:last-child {
+		margin-bottom: 2px;
+	}
 	.main__block {
-	display: flex;
-	flex-direction: column;
-	align-items: center	;
-	padding: 68.4% 0 0 0;
-	background: no-repeat left 23% top 12% url(img/bella.png);
-	background-size: 55.2%;
+		align-items: flex-start;
+		background: no-repeat 50% 96.5% / 9%   url(img/Vector-mobile.svg), no-repeat 0% -56px / 100% url(img/bella-mobile.png);
+		padding: 96.9% 0 0 0;
 	}
 	.main__block-content {
-    width: 40%;
-    margin: 0 0 0 22%;
-    }
-    .main__block-content-title {
-    font: 700 7.55vw/7.7vw 'Montserrat-Bold', sans-serif;
+		width: auto;
+		margin: 0 0 16% 7%;
 	}
-    .main__block-content-text {
-    margin: 0 0 10.8% 0;
-    font: 400 2vw/2.6vw 'Montserrat-Regular', sans-serif;
+	.main__block-content-title {
+		font: 700 13.4vw/13.8vw 'Montserrat-Bold', sans-serif;
+		margin: 0;
+	}
+	.main__block-content-text {
+		display: none;
 	}
 	.main__block-buttons {
-    margin: 0 0 11.8% 25%;
-    }
-    .main__block-buttons-next {
-    font: 500 1.4vw 'Montserrat-Medium', sans-serif;
-	}
-	.main__block-buttons-rest {
-    font: 500 1.4vw 'Montserrat-Medium', sans-serif;
-    }
-
-    .main__block-buttons-rest::before {
-    width: 66%;
-	}
-	.main__nav-inst {
-    margin-left: 7%;
-	}
-	.main__nav-mouse {
 		display: none;
-	}
-	.main-second {
-		display: none;
-	}
-	.main-third {
-		display: none;
-	}
-}
-@media (max-width: 560px) {
-	.main__menu-loco {
-		margin: 10px 0 0 30.5%;
-	}
-	.main__menu-burger {
-		width: 48px;
-		height: 48px;
 	}
 	.main__nav {
-		width: 70%;
-	}
-	.main__nav-inst {
-		margin-left: 3%;
-		width: 24px;
-		height: 24px;
-	}
-	.main__nav-vk {
-		width: 24px;
-		height: 24px;
-	}
-	.main__nav-facebook {
-		width: 24px;
-		height: 24px;
-	}
-	.main__block-buttons-rest::before {
-		background-size: 50%;
+		display: none;
 	}
 }
+
+@media (max-width: 500px) {
+	.main__menu-burger {
+		width: 70px;
+		height: 70px;
+	}
+}
+/* Вторая страница */
