@@ -87,6 +87,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	display: none	;
 }
 .main__menu-burger-line {
 	width: 35px;
@@ -101,8 +102,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	padding: 12.4% 0 0 0;
-	background: no-repeat left 20.85% top 47.5% url(img/bella.png);
+	padding: 13.9% 0 0 0;
+	background: no-repeat left 20.85% top 52.8% url(img/bella.png);
 	background-size: 38.2%;
 }
 .main__block-content {
