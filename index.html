@@ -5,6 +5,7 @@
     <title>LOCO</title>
     <link rel="stylesheet" type="text/css" href="fonts.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style-burger.css">
 </head>
 <body>
     <!-- Первая страница -->
@@ -14,7 +15,22 @@
                 <div class="main__menu-loco">LOCO</div>
                 <div class="main__menu-ru" >RU</div>
             </div>
-            <div class="main__menu-burger">
+
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                 <span></span>
+                </label>
+            <!-- Список меню -->
+                <ul class="menu__box">
+                 <li><a class="menu__item" href="#">Главная</a></li>
+                  <li><a class="menu__item" href="#">Проекты</a></li>
+                  <li><a class="menu__item" href="#">Команда</a></li>
+                  <li><a class="menu__item" href="#">Блог</a></li>
+                  <li><a class="menu__item" href="#">Контакты</a></li>
+                </ul>
+              </div>
+                <div class="main__menu-burger">
                 <div class="main__menu-burger-line"></div>
                 <div class="main__menu-burger-line"></div>
             </div>
@@ -44,7 +60,7 @@
             <p class="main-second__block-title">Кожаный клатч</p>
             <p class="main-second__block-subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
             <p class="main-second__block-text">Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения.
-                В магазинах предложение не суммируется c другими акциями, предложениями распродажей. </p>
+                В магазинах предложение не суммируется c другими акциями, предложениями и распродажей. </p>
             <div class="main-second__block-circle">
                 <div class="block-circle__grey"><!--Серый кружочек--></div>
                 <div class="block-circle__red"><!--Красный кружочек--></div>
@@ -64,15 +80,15 @@
         <article class="main-third__block">
             <p class="main-third__block-title">Serene Total Look</p>
             <p class="main-third__block-subtitle">ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
-            <p class="main-third__block-text">Джинсы, свитер, обувь. В комплект также входит пакет ароматного чая и кружка.</p>
+            <p class="main-third__block-text">Джинсы, свитер, обувь. <br>В комплект также входит пакет ароматного чая и кружка.</p>
             <div class="main-third__block-buttons">
-                <div class="main-third__block-buttons-counter">- 1 +</div>
+                <div class="main-third__block-buttons-counter">- &nbsp;&nbsp;&nbsp; 1 &nbsp;&nbsp;&nbsp; +</div>
                 <a class="main-third__block-buttons-basket">ДОБАВИТЬ В КОРЗИНУ</a>
             </div>
-            <a class="main-third__block-rest">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
         </article>
+        <a class="main-third__block-rest">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
         <footer class="main-third__footer">
-            <p class="main-third__footer-text">Разработано в <span class="main-third__footer-subtext">WebHero</span>School<p>
+            <p class="main-third__footer-text">Разработано в<p>
         </footer>
     </section>
 </html>

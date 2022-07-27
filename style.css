@@ -1,5 +1,5 @@
 .main-second__block-title {
-	font: 700 2.8vw/3vw'Montserrat-Bold', sans-serif;
+	font: 700 2.8vw/3.3vw'Montserrat-Bold', sans-serif;
 }
 .main-second__block-subtitle {
 	font: 700 1.2vw/1vw 'Montserrat-Bold', sans-serif;
@@ -35,7 +35,7 @@
 	font: 500 13px 'Montserrat-Medium', sans-serif;
 }
 .main-third__block-rest {
-	font: 500 13px/16px 'Montserrat-Medium', sans-serif;
+	font: 500 0.9vw/1.5vw 'Montserrat-Medium', sans-serif;
 }
 .main-third__footer-text {
 	font: 700 12px/15px 'Montserrat-Bold', sans-serif;
@@ -51,6 +51,7 @@ body {
 .main__menu {
 	display: flex;
 	justify-content: space-between;
+	margin: 0;
 }
 .main__menu-logo {
 	display: flex;
@@ -202,13 +203,18 @@ body {
 	.main {
 		background-image: linear-gradient(to right, black 0%, white 0%);
 	}
+	.main__menu {
+		padding: 3% 0 0 0;
+		margin: 0 0 3.8% 0;
+	}
 	.main__menu-logo {
 		align-items: center;
 	}
 	.main__menu-loco {
-		font: 500 8.5vw/10vw 'Montserrat-Medium', sans-serif;
+		font: 500 8.6vw/11vw 'Montserrat-Medium', sans-serif;
 		color: #000;
 		margin: 0 0 0 24.5%;
+		padding: 0 0 3% 0;
 	}
 	.main__menu-ru {
 		display: none;
@@ -218,17 +224,17 @@ body {
 		height: 106px;
 	}
 	.main__menu-burger-line {
-		width: 34px;
-		height: 4px;
+		width: 26px;
+		height: 3px;
 		background-color: black;
-		margin-bottom: 6px;
+		margin-bottom: 5px;
 	}
 	.main__menu-burger-line:last-child {
 		margin-bottom: 2px;
 	}
 	.main__block {
 		align-items: flex-start;
-		background: no-repeat 50% 96.5% / 9%   url(img/Vector-mobile.svg), no-repeat 0% -56px / 100% url(img/bella-mobile.png);
+		background: no-repeat 50.5% 96% / 9%   url(img/Vector-mobile.svg), no-repeat 0% -56px / 100% url(img/bella-mobile.png);
 		padding: 96.9% 0 0 0;
 	}
 	.main__block-content {
@@ -257,3 +263,279 @@ body {
 	}
 }
 /* Вторая страница */
+.main-second {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	padding: 11.5% 0 0 0;
+	background: url(img/handbag.svg) no-repeat 27% 50%/40.5%, url(img/handbagsmall.svg) no-repeat 13% 45%/28%, #FAE8E4;
+}
+.main-second__block {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFF;
+	margin: 0 5% 2.6% 0;
+	width: 26.1%;
+	padding: 3% 4% 3.2% 3.85%;
+}
+.main-second__block-title {
+    margin: 0 0 3.5% 0;
+}
+.main-second__block-subtitle {
+    margin: 0 0 17% 0;
+}
+.main-second__block-text {
+    margin: 0 0 14.5% 0;
+}
+.main-second__block-circle {
+	display: flex;
+	margin: 0 0 14.2% 0;
+}
+.block-circle__grey {
+	width: 2.084vw;
+	height: 2.084vw;
+	border-radius: 22px;
+	background-color: #DEDEDE;
+	margin-right: 3%;
+}
+.block-circle__red {
+	width: 2.639vw;
+	height: 2.639vw;
+	border-radius: 22px;
+	background-color: #F29F9F;
+	margin: -1% 3% 0 0;
+}
+.block-circle__blue {
+	width: 2.084vw;
+	height: 2.084vw;
+	border-radius: 22px;
+	background-color: #A8BFF9;
+	margin-right: 3%;
+}
+.block-circle__green {
+	width: 2.084vw;
+	height: 2.084vw;
+	border-radius: 22px;
+	background-color: #90BD8F;
+	margin-right: 19%;
+}
+.main-second__block-buttons {
+    display: flex;
+}
+.main-second__block-buttons-counter {
+    font: 500 1vw 'Montserrat-Medium', sans-serif;
+    border: 1.5px solid black;
+    padding: 2.5% 4.8% 3.9% 4.8%;
+	margin: 0 4.5% 0 0;
+}
+.main-second__block-buttons-basket {
+    font: 500 0.9vw 'Montserrat-Medium', sans-serif;
+    border: 1.5px solid black;
+    padding: 3.1% 12.9% 0% 10.7%;;
+}
+.main-second__block-rest {
+    margin: 0 23.4% 8.3% 0;
+	position: relative;
+}
+.main-second__block-rest::before {
+    content: '';
+    position: absolute;
+    background-image: url(img/Vector_2.2.svg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    width: 110.5%;
+    height: 78%;
+    left: 107.7%;
+    top: 17%;
+}
+@media (max-width: 768px) {
+	.main-second {
+		align-items: center;
+		padding: 70% 0 14% 0;
+		background: url(img/handbag375px.png) no-repeat 49% -21% / 60%, #FAE8E4;
+	}
+	.main-second__block {
+		margin: 0;
+		width: 73.8%;
+		padding: 4.5% 4% 6.6% 8%;
+	}
+	.main-second__block-title {
+		font: 700 5.4vw/6vw 'Montserrat-Bold', sans-serif;
+		margin: 0 0 0.9% 0;
+	}
+	.main-second__block-subtitle {
+		font: 700 2.96vw/3vw  'Montserrat-Bold', sans-serif;
+		margin: 0 0 4.9% 0;
+	}
+	.main-second__block-text {
+		font: 400 2.4vw/3.3vw 'Montserrat-Regular', sans-serif;
+		width: 94%;
+		margin: 0 0 7.4% 0;
+	}
+	.main-second__block-circle {
+		padding: 0 0 0 2%;
+		margin: 0 0 11.3% 0;
+	}
+	.block-circle__grey {
+		width: 23px;
+		height: 23px;
+		border-radius: 22px;
+		background-color: #DEDEDE;
+		margin-right: 3%;
+	}
+	.block-circle__red {
+		width: 30px;
+		height: 30px;
+		border-radius: 22px;
+		background-color: #F29F9F;
+		margin: -1% 3.5% 0 0;
+	}
+	.block-circle__blue {
+		width: 23px;
+		height: 23px;
+		border-radius: 22px;
+		background-color: #A8BFF9;
+		margin-right: 3.6%;
+	}
+	.block-circle__green {
+		width: 23px;
+		height: 23px;
+		border-radius: 22px;
+		background-color: #90BD8F;
+		margin-right: 22.5%;
+	}
+	.block-circle__price {
+		font: 700 5.3vw/6.9vw 'Montserrat-Bold', sans-serif;
+	}
+	.main-second__block-buttons-counter {
+		display: none;
+	}
+	.main-second__block-buttons-basket {
+		font: 500 3.45vw 'Montserrat-Medium', sans-serif;
+		padding: 3% 17.4%;
+	}
+	.main-second__block-rest {
+		display: none;
+	}
+}
+
+/* Третья страница */
+.main-third {
+	background: url(img/clothes.png) no-repeat 14.3% 50% / 57.4%, url(img/whs.svg) no-repeat 98.6% 98.2% / 5.8%, linear-gradient(to right, #EBE3D8 26.9%, #000 26.9%,#000 32%, #EBE3D8 32%);
+	padding: 17.9% 0 0 56.6%;
+}
+.main-third__block {
+	display: flex;
+	flex-direction: column;
+	background: #FAE8E4;
+	margin: 0 0 6% 0;
+	width: 61%;
+	padding: 6% 7% 7% 8%;	
+}
+.main-third__block-title {
+	font: 700 2.79vw/2.7vw 'Montserrat-Bold', sans-serif;
+	margin: 0;
+	padding: 0 0 4% 0;
+}
+.main-third__block-subtitle {
+    font: 700 1.21vw/0.9vw 'Montserrat-Bold', sans-serif;
+	margin: 0;
+	padding: 0 0 9.5% 0;
+}
+.main-third__block-text {
+    font: 400 1.05vw/1.45vw 'Montserrat-Regular', sans-serif;
+	margin: 0;
+	padding: 0 0 14.5% 0;
+	width: 95%;
+}
+.main-third__block-buttons {
+	display: flex;
+}
+.main-third__block-buttons-counter {
+    font: 500 1vw 'Montserrat-Medium', sans-serif;
+    border: 1.5px solid black;
+    padding: 2.5% 5% 3.5% 4.8%;
+	margin: 0 3.9% 0 0;
+}
+.main-third__block-buttons-basket {
+    font: 500 0.9vw 'Montserrat-Medium', sans-serif;
+    border: 1.5px solid black;
+    padding: 3.1% 12% 0% 10.7%;
+}
+.main-third__block-rest {
+    margin: 0 0 32% 21%;
+    position: relative;
+    display: block;
+    width: 36%;
+}
+.main-third__block-rest::before {
+    content: '';
+    position: absolute;
+    background-image: url(img/Vector\ 2.3.svg);
+    background-repeat: no-repeat;
+    background-size: 44%;
+    width: 110.5%;
+    height: 78%;
+    left: 104.6%;
+    top: 19%;
+}
+.main-third__footer {
+    display: flex;
+    justify-content: flex-end;
+}
+.main-third__footer-text {
+    font: 700 0.83vw/1.1vw 'Montserrat-Bold', sans-serif;
+    margin: 0px 19% 3.4% 0;
+    text-transform: uppercase;
+}
+@media (max-width: 780px) {
+	.main-third {
+		background: url(img/clothesMobile.png) no-repeat 50% 10.6% / 93%, linear-gradient(to right, #EBE3D8 27%, #000 27%,#000 38%, #EBE3D8 38%);
+		padding: 73.7% 0 5% 12%;
+	}
+	.main-third__block {
+		margin: 0 0 11% 0;
+		width: 85%;
+		padding: 7% 0% 8.8% 7%;
+	}
+	.main-third__block-title {
+		font: 700 5.4vw/5vw 'Montserrat-Bold', sans-serif;
+		padding: 0 0 3% 0;
+	}
+	.main-third__block-subtitle {
+		font: 700 2.9vw/1.5vw 'Montserrat-Bold', sans-serif;
+		padding: 0 0 4% 0;
+	}
+	.main-third__block-text {
+		font: 400 2.4vw/3.6vw 'Montserrat-Regular', sans-serif;
+		width: 82%;
+		padding: 0 0 7.6% 0;
+	}
+	.main-third__block-buttons-counter {
+		display: none;
+	}
+	.main-third__block-buttons-basket {
+		font: 500 3.5vw 'Montserrat-Medium', sans-serif;
+		padding: 3% 16.6%;
+	}
+	.main-third__block-rest {
+		font: 500 4vw/4.9vw 'Montserrat-Medium', sans-serif;
+		margin: 0 0 11% 43%;
+		display: block;
+		width: 42%;
+	}
+	.main-third__block-rest::before {
+		content: '';
+		position: absolute;
+		background-image: url(img/Vector2.3Mobile.svg);
+		background-repeat: no-repeat;
+		background-size: 89%;
+		width: 110.5%;
+		height: 78%;
+		left: 1%;
+		top: 110%;
+	}
+	.main-third__footer {
+		display: none;
+	}
+}
