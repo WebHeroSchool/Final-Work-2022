@@ -101,8 +101,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	padding: 12.4% 0 0 0;
-	background: no-repeat left 20.85% top 47.5% url(img/bella.png);
+	padding: 13.8% 0 0 0;
+	background: no-repeat left 20.85% top 53.5% url(img/bella.png);
 	background-size: 38.2%;
 }
 .main__block-content {
